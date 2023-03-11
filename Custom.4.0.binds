@@ -9,7 +9,7 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MouseReset>
-	<MouseSensitivity Value="0.59176534" />
+	<MouseSensitivity Value="0.26570511" />
 	<MouseDecayRate Value="10.00000000" />
 	<MouseDeadzone Value="0.00282500" />
 	<MouseLinearity Value="1.00000000" />
@@ -360,11 +360,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Mouse_5" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_Add" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="Keyboard" Key="Key_Numpad_7" />
+		<Primary Device="Mouse" Key="Mouse_4" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_9" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
