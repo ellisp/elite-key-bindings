@@ -716,7 +716,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleDriveAssist>
-	<DriveAssistDefault Value="1" />
+	<DriveAssistDefault Value="0" />
 	<MouseBuggySteeringXMode Value="" />
 	<MouseBuggySteeringXDecay Value="0" />
 	<MouseBuggyRollingXMode Value="" />
@@ -729,12 +729,12 @@
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
 	<SteerLeftButton>
-		<Primary Device="Keyboard" Key="Key_Comma" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_4" />
 	</SteerLeftButton>
 	<SteerRightButton>
-		<Primary Device="Keyboard" Key="Key_Period" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_6" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
 		<Binding Device="{NoDevice}" Key="" />
@@ -742,11 +742,11 @@
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
 	<BuggyRollLeftButton>
-		<Primary Device="Keyboard" Key="Key_Comma" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyRollLeftButton>
 	<BuggyRollRightButton>
-		<Primary Device="Keyboard" Key="Key_Period" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
@@ -755,7 +755,7 @@
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
-		<Primary Device="Keyboard" Key="Key_S" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPitchUpButton>
 	<BuggyPitchDownButton>
@@ -763,17 +763,17 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_R" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
-		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_Enter" />
+		<Secondary Device="Mouse" Key="Mouse_2" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
-		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_0" />
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="Keyboard" Key="Key_B" />
@@ -797,7 +797,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
-		<Primary Device="Keyboard" Key="Key_M" />
+		<Primary Device="Keyboard" Key="Key_T" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="" />
@@ -846,20 +846,20 @@
 	</BuggyToggleReverseThrottleInput>
 	<BuggyThrottleIncrement Value="0.00000000" />
 	<IncreaseSpeedButtonMax>
-		<Primary Device="Keyboard" Key="Key_Space" />
+		<Primary Device="Keyboard" Key="Key_W" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSpeedButtonMax>
 	<DecreaseSpeedButtonMax>
-		<Primary Device="Keyboard" Key="Key_LeftShift" />
+		<Primary Device="Keyboard" Key="Key_S" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DecreaseSpeedButtonMax>
 	<IncreaseSpeedButtonPartial>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekProFlightRudderPedals" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</IncreaseSpeedButtonPartial>
 	<DecreaseSpeedButtonPartial>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekProFlightRudderPedals" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</DecreaseSpeedButtonPartial>
@@ -930,7 +930,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenCodexGoToDiscovery_Buggy>
 	<PlayerHUDModeToggle_Buggy>
-		<Primary Device="Keyboard" Key="Key_I" />
+		<Primary Device="Keyboard" Key="Key_M" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle_Buggy>
 	<HeadLookToggle_Buggy>
