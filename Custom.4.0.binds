@@ -360,11 +360,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="Mouse" Key="Mouse_5" />
+		<Primary Device="Mouse" Key="Mouse_4" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_Add" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="Mouse" Key="Mouse_4" />
+		<Primary Device="Mouse" Key="Mouse_5" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_9" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
